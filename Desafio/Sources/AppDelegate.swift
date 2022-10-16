@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let homeViewController = HomeViewController()
-        let navigationController = UINavigationController(rootViewController: homeViewController)
+        let MovieListViewController = MovieListViewController()
+        let navigationController = UINavigationController(rootViewController: MovieListViewController)
 
         window?.rootViewController = navigationController
         

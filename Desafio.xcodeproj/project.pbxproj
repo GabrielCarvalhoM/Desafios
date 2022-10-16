@@ -10,7 +10,10 @@
 		9B2A5D9028EBB9F90003142A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A5D8F28EBB9F90003142A /* AppDelegate.swift */; };
 		9B2A5D9928EBB9FA0003142A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2A5D9828EBB9FA0003142A /* Assets.xcassets */; };
 		9B2A5D9C28EBB9FA0003142A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2A5D9A28EBB9FA0003142A /* LaunchScreen.storyboard */; };
-		9B2A5DA428EBBA200003142A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A5DA328EBBA200003142A /* HomeViewController.swift */; };
+		9BA98B1A28F6DF1F00D35930 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA98B1928F6DF1F00D35930 /* MovieListViewController.swift */; };
+		9BA98B1C28F6E70D00D35930 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA98B1B28F6E70D00D35930 /* CustomTableViewCell.swift */; };
+		9BA98B1E28F6ED5700D35930 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA98B1D28F6ED5700D35930 /* MovieModel.swift */; };
+		9BA98B2028F6EEEF00D35930 /* MovieListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA98B1F28F6EEEF00D35930 /* MovieListService.swift */; };
 		9BFD2D8A28EE33C400EDD59F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD2D8928EE33C400EDD59F /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,7 +23,10 @@
 		9B2A5D9828EBB9FA0003142A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2A5D9B28EBB9FA0003142A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2A5D9D28EBB9FA0003142A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B2A5DA328EBBA200003142A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9BA98B1928F6DF1F00D35930 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		9BA98B1B28F6E70D00D35930 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9BA98B1D28F6ED5700D35930 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		9BA98B1F28F6EEEF00D35930 /* MovieListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListService.swift; sourceTree = "<group>"; };
 		9BFD2D8928EE33C400EDD59F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,9 +70,12 @@
 		9B2A5DA528EBBC010003142A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				9B2A5DA328EBBA200003142A /* HomeViewController.swift */,
 				9B2A5D8F28EBB9F90003142A /* AppDelegate.swift */,
 				9BFD2D8928EE33C400EDD59F /* DetailsViewController.swift */,
+				9BA98B1928F6DF1F00D35930 /* MovieListViewController.swift */,
+				9BA98B1B28F6E70D00D35930 /* CustomTableViewCell.swift */,
+				9BA98B1D28F6ED5700D35930 /* MovieModel.swift */,
+				9BA98B1F28F6EEEF00D35930 /* MovieListService.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -150,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BA98B1A28F6DF1F00D35930 /* MovieListViewController.swift in Sources */,
 				9B2A5D9028EBB9F90003142A /* AppDelegate.swift in Sources */,
-				9B2A5DA428EBBA200003142A /* HomeViewController.swift in Sources */,
+				9BA98B2028F6EEEF00D35930 /* MovieListService.swift in Sources */,
+				9BA98B1E28F6ED5700D35930 /* MovieModel.swift in Sources */,
+				9BA98B1C28F6E70D00D35930 /* CustomTableViewCell.swift in Sources */,
 				9BFD2D8A28EE33C400EDD59F /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
